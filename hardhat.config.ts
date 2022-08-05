@@ -6,7 +6,7 @@ const config: HardhatUserConfig = {
   solidity: "0.8.4",
   networks: {
     rinkeby: {
-      url: "https://eth-rinkeby.alchemyapi.io/v2/123abc123abc123abc123abc123abcde",
+      url: "https://rpc.ankr.com/eth_rinkeby",
       accounts: [process.env.PRIVATE_KEY ?? '']
     },
     // mainnet: { ... }
